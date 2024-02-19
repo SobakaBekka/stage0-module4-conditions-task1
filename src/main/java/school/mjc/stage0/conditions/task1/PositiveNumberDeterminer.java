@@ -7,7 +7,7 @@ public class PositiveNumberDeterminer {
         } else if (numberToBeDetermined < 0) {
             System.out.println(false);
         } else {
-            System.out.println("Число равно 0");
+            System.out.println(false); // Печать false для случая, когда numberToBeDetermined равно 0
         }
     }
 }
